@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<!--    <group>-->
+
+<!--        <item-->
+<!--            android:title="This is My Group">-->
+
+<!--            <menu>-->
+
+<!--                -->
+<!--            </menu>-->
+
+<!--        </item>-->
+
+<!--    </group>-->
+
+    <item
+        android:title="Moon"
+        android:icon="@drawable/ic_moon"
+        android:id="@+id/action_moon">
+
+<!--        <menu>-->
+
+<!--            <item-->
+<!--                android:title="Sun"-->
+<!--                android:icon="@drawable/ic_sun"-->
+<!--                android:id="@+id/action_sun_inner"/>-->
+<!--            <item-->
+<!--                android:title="Settings"-->
+<!--                android:icon="@drawable/ic_settings"-->
+<!--                android:id="@+id/action_settings_new_inner"/>-->
+
+<!--        </menu>-->
+    </item>
+    <item
+        android:title="Sun"
+        android:icon="@drawable/ic_sun"
+        android:id="@+id/action_sun"/>
+    <item
+        android:title="Settings"
+        android:icon="@drawable/ic_settings"
+        android:id="@+id/action_settings_new"/>
+    <item
+        android:title="Person"
+        android:icon="@drawable/ic_person"
+        android:id="@+id/action_person_new"/>
+
+</menu>

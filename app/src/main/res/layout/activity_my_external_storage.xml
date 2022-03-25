@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".external_internal_Storage.MyExternalStorageActivity">
+
+    <EditText
+        android:id="@+id/edtExternal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="126dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnWriteExternal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="39dp"
+        android:text="Write External"
+        app:layout_constraintStart_toStartOf="@+id/edtExternal"
+        app:layout_constraintTop_toBottomOf="@+id/edtExternal" />
+
+    <Button
+        android:id="@+id/btnReadExternal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="3dp"
+        android:text="Read External"
+        app:layout_constraintEnd_toEndOf="@+id/btnWriteExternal"
+        app:layout_constraintTop_toBottomOf="@+id/btnWriteExternal" />
+
+    <TextView
+        android:id="@+id/tvExternal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="67dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnReadExternal" />
+
+    <Button
+        android:id="@+id/btnGallary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:layout_marginBottom="35dp"
+        android:text="Gallary"
+        app:layout_constraintBottom_toBottomOf="@+id/btnReadExternal"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:title="item 5"
+        android:id="@+id/action_menu5"
+        android:icon="@drawable/light"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:title="item 6"
+        android:id="@+id/action_menu6"
+        android:icon="@drawable/light"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="item 7"
+        android:id="@+id/action_menu7"
+        android:icon="@drawable/light"
+        app:showAsAction="never"/>
+
+    <item
+        android:title="item 8"
+        android:id="@+id/action_menu8"
+        android:icon="@drawable/light"
+        app:showAsAction="never"/>
+
+</menu>

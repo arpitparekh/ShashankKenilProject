@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">ShashankKenilProject</string>
+
+    <array name="values">
+
+        <item>20</item>
+
+        <item>50</item>
+
+    </array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

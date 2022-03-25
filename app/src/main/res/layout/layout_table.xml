@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_columnSpan="4"
+    android:stretchColumns="1"
+    android:collapseColumns="0">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+        <ImageView
+
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="#43A047"/>
+        <ImageView
+
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="#FFB300"/>
+
+        <ImageView
+
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="#00ACC1"/>
+
+        <ImageView
+
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="#8E24AA"/>
+
+        <ImageView
+
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="#00897B"/>
+
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="#7CB342"/>
+
+        <ImageView
+
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="#F4511E"/>
+
+        <ImageView
+
+            android:layout_height="50dp"
+            android:layout_width="50dp"
+            android:background="#FFB300"/>
+
+    </TableRow>
+
+</TableLayout>

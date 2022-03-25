@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".animation.MyAnimationActivity">
+
+    <Button
+        android:id="@+id/btnSlide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="96dp"
+        android:text="Slide"
+        app:layout_constraintEnd_toEndOf="@+id/btnRotate"
+        app:layout_constraintTop_toBottomOf="@+id/ivAnim" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="226dp"
+        android:backgroundTint="#3949AB"/>
+
+    <Button
+        android:id="@+id/btnRotate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:layout_marginBottom="318dp"
+        android:text="Rotate"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivAnim" />
+
+    <Button
+        android:id="@+id/btnZoom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Zoom"
+        app:layout_constraintEnd_toEndOf="@+id/btnRotate"
+        app:layout_constraintTop_toBottomOf="@+id/btnRotate" />
+
+    <Button
+        android:id="@+id/btnBlink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="32dp"
+        android:text="Blink"
+        app:layout_constraintStart_toStartOf="@+id/btnZoom"
+        app:layout_constraintTop_toBottomOf="@+id/btnZoom" />
+
+    <ImageView
+        android:id="@+id/ivAnim"
+        android:layout_width="145dp"
+        android:layout_height="135dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginBottom="172dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRotate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_fill" />
+</androidx.constraintlayout.widget.ConstraintLayout>
